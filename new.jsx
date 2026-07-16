@@ -21,16 +21,26 @@ function StatCard({ label, metric }) {
 }
 
 // The Main App Component
-function App() {
-  return (
-    <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
-      <h1>Automated EDA Dashboard</h1>
-      <p>Live metrics from the engine</p>
+// function App() {
+//   return (
+//     <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
+//       <h1>Automated EDA Dashboard</h1>
+//       <p>Live metrics from the engine</p>
       
-      {/* Rendering our component twice with different props */}
-      <StatCard label="Model Accuracy" metric="95%" />
-      <StatCard label="Datasets Processed" metric="12" />
-    </div>
+//       {/* Rendering our component twice with different props */}
+//       <StatCard label="Model Accuracy" metric="95%" />
+//       <StatCard label="Datasets Processed" metric="12" />
+//     </div>
+//   );
+// }
+
+function TechBadge({ techName }) {
+  return (
+    <span style={{ background: "#eee", padding: "5px 10px", margin: "5px", borderRadius: "15px", fontWeight: "bold", fontSize: "14px" }}>
+      
+      {/* YOUR TURN: Use JSX syntax to display the techName variable here! */}
+
+    </span>
   );
 }
 
