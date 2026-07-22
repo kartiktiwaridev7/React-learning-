@@ -1,0 +1,9 @@
+[
+  { "date": "2026-07-16", "users": 300, "revenue": 1398 },
+  { "date": "2026-07-17", "users": 200, "revenue": 9800 },
+  { "date": "2026-07-18", "users": 278, "revenue": 3908 },
+  { "date": "2026-07-19", "users": 189, "revenue": 4800 },
+  { "date": "2026-07-20", "users": 239, "revenue": 3800 },
+  { "date": "2026-07-21", "users": 349, "revenue": 4300 },
+  { "date": "2026-07-22", "users": 400, "revenue": 2400 }
+]
